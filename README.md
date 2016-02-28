@@ -16,7 +16,7 @@ To install:
 
 Example of usage for finding a value in between something:
 
-	  var needler = require('../lib');
+	  var needler = require('needler');
 
 	  var options = {
 	    haystack: 'The word inside of <bold>tag</bold> will be returned.',
@@ -35,7 +35,7 @@ Example of usage for finding a value in between something:
 
 Example of usage for replacing a value in between something:
 
-	  var needler = require('../lib');
+	  var needler = require('needler');
 
 	  var options = {
 	    haystack: 'The word after <this>WOOHOO</this>.',
