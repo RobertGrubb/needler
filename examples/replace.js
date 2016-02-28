@@ -18,6 +18,5 @@ var result = needler.replace(options, (error, result) => {
     console.log(error);
   }
 
-  // This should return `tag`
   console.log(result);
 });
