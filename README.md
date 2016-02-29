@@ -1,4 +1,4 @@
-# Needler
+# Needler [![Build Status](https://travis-ci.org/RobertGrubb/needler.svg?branch=master)](https://travis-ci.org/RobertGrubb/needler)
 ----------------
 
 Get tired of having to fool with regex to find a value in between two tags?
