@@ -7,7 +7,7 @@
     "test": "./node_modules/.bin/mocha --reporter spec",
     "clean": "rimraf lib",
     "compile": "./node_modules/.bin/babel --presets es2015,stage-2 -d lib/ src/",
-    "prepublish": "npm run clean && npm run test && npm run compile"
+    "prepublish": "npm run clean && npm run compile && npm run test"
   },
   "author": "Robert Grubb",
   "license": "MIT",
