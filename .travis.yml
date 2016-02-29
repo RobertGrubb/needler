@@ -1,4 +1,6 @@
+# languages
 language: node_js
+# node js versions
 node_js:
     - '0.12'
     - '4.2'
