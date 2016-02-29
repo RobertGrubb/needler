@@ -12,7 +12,7 @@ var options = {
   flags: 'i' //g, i, m, etc. Can be combined.
 }
 
-var result = needler.replace(options, (error, result) => {
+var result = needler.replace(options, function (error, result) {
   // Most likely if a required option is missing.
   if (error) {
     console.log(error);

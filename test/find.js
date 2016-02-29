@@ -10,7 +10,7 @@ describe("Test Needler's Finder", function() {
       footer: '</bold>'
     }
 
-    needler.find(options, (error, result) => {
+    needler.find(options, function (error, result) {
       expect(error).to.equal(false);
       expect(result).to.equal('tag');
     });

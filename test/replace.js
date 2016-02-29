@@ -11,7 +11,7 @@ describe("Test Needler's Replacer", function() {
       footer: '</bold>'
     }
 
-    needler.replace(options, (error, result) => {
+    needler.replace(options, function (error, result) {
       expect(error).to.equal(false);
       expect(result).to.equal('The word in the bold <bold>WOOHOO</bold> should change to WOOHOO.');
     });

@@ -10,7 +10,7 @@ var options = {
   footer: '</bold>'
 }
 
-var result = needler.find(options, (error, match) => {
+var result = needler.find(options, function (error, match) {
   // Most likely if a required option is missing.
   if (error) {
     console.log(error);
