@@ -58,9 +58,9 @@ Example of usage for replacing a value in between something:
 
 Needler is also compatible with es6 importing. You can do so like below:
 
-`import needler from 'needler';`
+`import { find, replace } from 'needler';`
 
-	  import needler from 'needler';
+	  import { find, replace } from 'needler';
 
 	  let options = {
 	    haystack: 'The word after <this>WOOHOO</this>.',
@@ -70,7 +70,7 @@ Needler is also compatible with es6 importing. You can do so like below:
 	    flags: 'i' //g, i, m, etc. Can be combined.
 	  }
 
-	  let result = needler.replace(options, (error, result) => {
+	  replace(options, (error, result) => {
 	    if (error) {
 	      console.log(error);
 	    }
